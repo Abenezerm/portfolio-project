@@ -1,3 +1,108 @@
-body{
-  background-color: #A9CEE8;
+*{
+  text-align: center;
+  color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  font-size: 1.5rem;
+}
+.Header{
+  margin-left: 25px;
+  width: 95%;
+  display: flex;
+  background-color: #189AB4;
+  justify-content: space-between;
+}
+
+.Header h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color: white;
+  padding-left: 20%;
+}
+.Header .Nav{
+  padding-top: 150px;
+  padding-right: 10px;
+}
+.Header .Nav a{
+  padding-right: 10px;
+}
+.About-me{
+  margin-left: 25px;
+  width: 95%;
+  margin-top: 15px;
+  display: flex;
+  background-color: #189AB4;
+
+}
+.About-me .section-Header{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-right-style: solid;
+}
+.About-me h2{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.headshot{
+  margin: 20px 20px 20px 20px;
+}
+.About-me p{
+  font-family: 'Merriweather', serif;
+  color: white;
+  padding-left: 20px;
+  padding-top: 80px;
+  padding-right: 10px;
+}
+.Projects{
+  display: flex;
+
+  margin-left: 25px;
+  width: 95%;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.Projects .Mobile-development{
+  margin-right: 5px;
+  background-color: #189AB4;
+  width: 50%;
+}
+.Projects .Mobile-development .title{
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: center;
+}
+.Projects .Mobile-development .title h2{
+  margin-left: 10px;
+  margin-top: 40px;
+}
+.Projects .Mobile-development .title img{
+  padding-top: 5px;
+}
+.Projects .Web-development{
+  margin-left: 5px;
+  background-color: #189AB4;
+  width: 50%;
+}
+.Projects .Web-development .title{
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: center;
+}
+.Projects .Web-development .title img{
+  padding-top: 5px;
+}
+.Projects .Web-development .title h2{
+  margin-left: 10px;
+  margin-top: 40px;
+}
+.Contact-Me{
+
 }
